@@ -4,19 +4,19 @@
     padding: 0;
 }
 
-/*Decoración-navegación*/
+/*Decoración-navegación-gral*/
 a   {
     text-decoration: none;
     color: aquamarine;
 }
 
-/*Estilo-navegación*/
+/*Estilo-navegación-gral*/
 ul  {
     @extend .alineaciontexto;
     list-style: none;
 }
 
-/*Banner-navegación*/
+/*Banner-navegación-gral*/
 .navbar-expand-lg {
     background-image: url(../img/bannerbackground.jpg);
 }
@@ -92,14 +92,14 @@ h4 {
     transition: font-size 0.2s;
 }
 
-/*navegación elementos*/
+/*navegación-elementos*/
 #navegacion-web li  {
     @extend .alineaciontexto;
     background-color: rgba(239, 247, 244, 0);
     padding: .2rem 1rem;
 }
 
-/*Seccion footer*/
+/*Seccion-footer*/
 #footer {
     @extend .alineaciontexto;
     grid-area: footer;

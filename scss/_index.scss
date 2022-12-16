@@ -13,10 +13,10 @@ section div img    {
 #grilla-gral    {
     display: grid;
     grid-template-areas: 
-    "header"
-    "productos"
-    "banner"
-    "footer";
+        "header"
+        "productos"
+        "banner"
+        "footer";
     grid-template-rows: 1frpx 1fr 1fr 50px;
     row-gap: 10px;
     height: 100vh;
@@ -27,10 +27,10 @@ section div img    {
 @media screen and (min-width: $pantalla-pequeña) {
     #grilla-gral {
         grid-template-areas: 
-        "header header"
-        "productos productos"
-        "banner banner"
-        "footer footer";
+            "header header"
+            "productos productos"
+            "banner banner"
+            "footer footer";
         grid-template-columns: repeat(2, 1fr);
     }
 }
@@ -40,14 +40,14 @@ section div img    {
     #grilla-gral {
         grid-template-rows: 200px 1fr 1fr 50px;
         grid-template-areas: 
-        "header header header"
-        "productos productos productos"
-        "banner banner banner"
-        "footer footer footer";
+            "header header header"
+            "productos productos productos"
+            "banner banner banner"
+            "footer footer footer";
         grid-template-columns: repeat(3, 1fr);
     }  
 
-    /*Página Index*/
+    /*Contenedor-index-grilla*/
     .contenedor-index   {
         display: flex;
         flex-direction: row;
@@ -55,7 +55,7 @@ section div img    {
         padding: 5rem;
         align-items: center;
     }
-
+    /*contenedor-index-imagenes*/
     .contenedor-index img {
         @include sizes (250px, 134.5px);
     }

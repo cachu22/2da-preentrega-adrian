@@ -198,5 +198,13 @@
     "yallist": "^4.0.0",
     "yargs-parser": "^20.2.9"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cachu22/2da-preentrega-adrian.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cachu22/2da-preentrega-adrian/issues"
+  },
+  "homepage": "https://github.com/cachu22/2da-preentrega-adrian#readme",
   "description": ""
 }

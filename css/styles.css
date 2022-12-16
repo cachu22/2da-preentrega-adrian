@@ -5,16 +5,16 @@
   margin: 0;
   padding: 0; }
 
-/*Decoración-navegación*/
+/*Decoración-navegación-gral*/
 a {
   text-decoration: none;
   color: aquamarine; }
 
-/*Estilo-navegación*/
+/*Estilo-navegación-gral*/
 ul {
   list-style: none; }
 
-/*Banner-navegación*/
+/*Banner-navegación-gral*/
 .navbar-expand-lg {
   background-image: url(../img/bannerbackground.jpg); }
 
@@ -74,12 +74,12 @@ h4 {
   font-size: 30px;
   transition: font-size 0.2s; }
 
-/*navegación elementos*/
+/*navegación-elementos*/
 #navegacion-web li {
   background-color: rgba(239, 247, 244, 0);
   padding: .2rem 1rem; }
 
-/*Seccion footer*/
+/*Seccion-footer*/
 #footer {
   grid-area: footer;
   margin-top: 100px;
@@ -123,13 +123,14 @@ section div img {
     grid-template-rows: 200px 1fr 1fr 50px;
     grid-template-areas: "header header header" "productos productos productos" "banner banner banner" "footer footer footer";
     grid-template-columns: repeat(3, 1fr); }
-  /*Página Index*/
+  /*Contenedor-index-grilla*/
   .contenedor-index {
     display: flex;
     flex-direction: row;
     gap: 3rem;
     padding: 5rem;
     align-items: center; }
+  /*contenedor-index-imagenes*/
   .contenedor-index img {
     width: 250px;
     height: 134.5px; } }
@@ -148,6 +149,7 @@ section div img {
     width: 500px; } }
 
 /*Grilla-Pagina-Quienes-somos*/
+/*Texto-Alineacion*/
 /*Mobile First*/
 /*Grilla*/
 #grilla-gral {
@@ -182,13 +184,13 @@ section div img {
     gap: 3rem; } }
 
 /*Página Nuestros Servicios*/
+/*Fuente-Formato*/
 .gray {
   color: white;
   text-shadow: black 0.1rem 0.1rem 0.2rem;
   font-size: 25px; }
 
 /*Fuente-Alineación*/
-/*Página nuestros servicios*/
 /*caja-productos*/
 #servicios {
   grid-area: productos; }
@@ -211,7 +213,7 @@ section div img {
   border: solid 1px;
   justify-items: center; }
 
-/*Banner productos y servicios*/
+/*Banner-productos-y-servicios*/
 #banner__productosyservicios {
   width: 200px;
   height: 40rem;
@@ -264,7 +266,6 @@ section div img {
     grid-template-rows: 200px 1fr 1fr 50px;
     grid-template-areas: "header header header" "productos productos productos" "banner banner banner" "footer footer footer";
     grid-template-columns: repeat(3, 1fr); }
-  /*Pagina-Servicios*/
   /*CARDS*/
   .padre-cards {
     display: grid;
@@ -294,7 +295,6 @@ section div img {
   #navegacion-web {
     flex-direction: row;
     gap: 3rem; }
-  /*Pagina Servicios*/
   /*CARDS*/
   .padre-cards {
     display: grid;
@@ -313,7 +313,7 @@ img {
   max-width: 100%;
   margin-top: 15px; }
 
-/*caja-imagenes*/
+/*caja_imagenes*/
 #id-imagenes {
   display: flex;
   flex-direction: column;
@@ -384,14 +384,17 @@ img {
     grid-template-columns: repeat(3, 1fr); } }
 
 /*Pagina-Contacto*/
+/*Formulario_Espacio_Botones*/
 .fuente-botones {
   margin-bottom: 3rem; }
 
+/*Forulario_Color_fondo*/
 #formulario {
   background-color: white; }
 
-/*Mobile First*/
+/*Texto_Alineacion_Extend*/
 /*Grilla*/
+/*Mobile First*/
 #grilla-gral {
   display: grid;
   grid-template-areas: "header" "productos" "banner" "footer";

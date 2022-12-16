@@ -1,4 +1,5 @@
 /*Página Nuestros Servicios*/
+/*Fuente-Formato*/
 .gray {
     @extend .alineaciontexto;
     color: white; text-shadow: black 0.1rem 0.1rem 0.2rem;
@@ -10,7 +11,6 @@
     @extend .alineaciontexto;
 }
 
-/*Página nuestros servicios*/
 /*caja-productos*/
 #servicios  {
     @extend .alineaciontexto;
@@ -36,7 +36,7 @@
     justify-items: center;
 }
 
-/*Banner productos y servicios*/
+/*Banner-productos-y-servicios*/
 #banner__productosyservicios {
     @include sizes (200px, 40rem);
     grid-area: banner;
@@ -77,10 +77,10 @@
 #grilla-gral    {
     display: grid;
     grid-template-areas: 
-    "header"
-    "productos"
-    "banner"
-    "footer";
+        "header"
+        "productos"
+        "banner"
+        "footer";
     grid-template-rows: 1frpx 1fr 1fr 50px;
     row-gap: 10px;
     height: 100vh;
@@ -91,10 +91,10 @@
 @media screen and (min-width: $pantalla-pequeña) {
     #grilla-gral {
         grid-template-areas: 
-        "header header"
-        "productos productos"
-        "banner banner"
-        "footer footer";
+            "header header"
+            "productos productos"
+            "banner banner"
+            "footer footer";
         grid-template-columns: repeat(2, 1fr);
     }
 }
@@ -104,14 +104,13 @@
     #grilla-gral {
         grid-template-rows: 200px 1fr 1fr 50px;
         grid-template-areas: 
-        "header header header"
-        "productos productos productos"
-        "banner banner banner"
-        "footer footer footer";
+            "header header header"
+            "productos productos productos"
+            "banner banner banner"
+            "footer footer footer";
         grid-template-columns: repeat(3, 1fr);
     }
 
-    /*Pagina-Servicios*/
     /*CARDS*/
     .padre-cards    {
         display: grid;
@@ -150,7 +149,6 @@
         gap: 3rem;
     }
 
-    /*Pagina Servicios*/
     /*CARDS*/
     .padre-cards    {
         display: grid;

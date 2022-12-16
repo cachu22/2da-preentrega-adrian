@@ -1,25 +1,28 @@
 /*Pagina-Contacto*/
-#grilla-contacto    {
-    @extend .alineaciontexto;
-}
-
+/*Formulario_Espacio_Botones*/
 .fuente-botones {
     margin-bottom: 3rem;
 }
 
+/*Forulario_Color_fondo*/
 #formulario {
     background-color: white
 }
 
-/*Mobile First*/
+/*Texto_Alineacion_Extend*/
+#grilla-contacto    {
+    @extend .alineaciontexto;
+}
+
 /*Grilla*/
+/*Mobile First*/
 #grilla-gral    {
     display: grid;
     grid-template-areas: 
-    "header"
-    "productos"
-    "banner"
-    "footer";
+        "header"
+        "productos"
+        "banner"
+        "footer";
     grid-template-rows: 1frpx 1fr 1fr 50px;
     row-gap: 10px;
     height: 100vh;
@@ -30,10 +33,10 @@
 @media screen and (min-width: $pantalla-pequeña) {
     #grilla-gral {
         grid-template-areas: 
-        "header header"
-        "productos productos"
-        "banner banner"
-        "footer footer";
+            "header header"
+            "productos productos"
+            "banner banner"
+            "footer footer";
         grid-template-columns: repeat(2, 1fr);
     }
 }
@@ -43,10 +46,10 @@
     #grilla-gral {
         grid-template-rows: 200px 1fr 1fr 50px;
         grid-template-areas: 
-        "header header header"
-        "productos productos productos"
-        "banner banner banner"
-        "footer footer footer";
+            "header header header"
+            "productos productos productos"
+            "banner banner banner"
+            "footer footer footer";
         grid-template-columns: repeat(3, 1fr);
     }
 }
